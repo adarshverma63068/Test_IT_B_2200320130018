@@ -5,37 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Quiz</title>
     <link rel="stylesheet" href="style.css">
-    
 </head>
 <body>
-    <h2>Online Quiz</h2>
-    <ul>What is the capital of France?
+    <div class="container">
+        <h2>Online Quiz</h2>
+        
+        <div class="question-container">
+            <p>QUESTION 1: What is the capital of France?</p>
+            <div class="options">
+                <input type="radio" name="question1" value="Rome"> Rome<br>
+                <input type="radio" name="question1" value="Paris"> Paris<br>
+                <input type="radio" name="question1" value="Madrid"> Madrid<br>
+                <input type="radio" name="question1" value="Berlin"> Berlin
+            </div>
+            <button class="button button1">Next</button>
+            <button class="button button2">Previous</button>
+        </div>
+        
+        <div class="question-container">
+            <p>QUESTION 2: Which planet is known as the Red Planet?</p>
+            <div class="options">
+                <input type="radio" name="question2" value="Earth"> Earth<br>
+                <input type="radio" name="question2" value="Mars"> Mars<br>
+                <input type="radio" name="question2" value="Jupiter"> Jupiter<br>
+                <input type="radio" name="question2" value="Saturn"> Saturn
+            </div>
+            <button class="button button1">Next</button>
+            <button class="button button2">Previous</button>
+        </div>
 
-        <ol> <input type="radio" name="Rome" value="HTML">Rome</ol>
-        <ol> <input type="radio" name="Rome" value="HTML">Paris</ol>
-        <ol> <input type="radio" name="Rome" value="HTML">Madrid</ol>
-        <ol> <input type="radio" name="Rome" value="HTML">Berlin</ol>   
-    </ul>
-    <button>Next</button>
-    <button>Previous</button>
+        <div class="question-container">
+            <p>QUESTION 3: What is the largest ocean on Earth?</p>
+            <div class="options">
+                <input type="radio" name="question3" value="Atlantic"> Atlantic<br>
+                <input type="radio" name="question3" value="Indian"> Indian<br>
+                <input type="radio" name="question3" value="Arctic"> Arctic<br>
+                <input type="radio" name="question3" value="Pacific"> Pacific
+            </div>
+            <button class="button button1">Next</button>
+            <button class="button button2">Previous</button>
+        </div>
 
-    <ul>Which planet is known as the Red Planet?
-        <ol> <input type="radio" name="Rome" value="HTML">Earth</ol>
-        <ol> <input type="radio" name="Rome" value="HTML">Mars</ol>
-        <ol> <input type="radio" name="Rome" value="HTML">Jupitar</ol>
-        <ol> <input type="radio" name="Rome" value="HTML">Saturn</ol>   
-    </ul>
-    <button>Next</button>
-    <button>Previous</button>
-
-    <ul>What is the largest ocean on Earth?
-        <ol> <input type="radio" name="Rome" value="HTML">Atlantic</ol>
-        <ol> <input type="radio" name="Rome" value="HTML">Indian</ol>
-        <ol> <input type="radio" name="Rome" value="HTML">Arctic</ol>
-        <ol> <input type="radio" name="Rome" value="HTML">Pacific</ol>   
-    </ul>
-    <button>Next</button>
-    <button>Previous</button>
-    <button>Submit</button>
+        <button class="button button3">Submit</button>
+    </div>
 </body>
 </html>
